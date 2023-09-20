@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Start header */
+.header {
+    background-image: url("./../img/kids-1093758_1280.jpg");
+    background-size:cover;
+}
+.img-overlay  {
+    background-color: #0e68d7dd;
+    opacity: 70%;
+}
+/* Start The upper part */
+.text-infromation{
+    font-size: 18px;
+    gap: 20px;
+}
+
+/* End The upper part */
+/* Start navbar */
+
+.scroll-nav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index:2;
+    background-color: #136ad5;
+    color: #f8f9fa;
+    font-weight: 500;
+}
+.border-none {
+    border: none;
+}
+.bar-text{
+    font-size: 35px;
+    font-weight: 500;
+}
+.link{
+    opacity: 50%;
+}
+.navbar-toggler {
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+/* End navbar */
+.bt-reload{
+    width: max-content;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: #136ad5;
+}
+.border-color{
+    border: 1px solid white;
+}
+.mt{
+    margin-top: 100px;
+}
+.hero {
+    max-width: 450px;
+}
+/* End header */
+/* Start Tow Section  */
+
+.section-tow-title{
+    margin: 120px auto 50px;
+    color: #136ad5;
+}
+.card-two-section {
+    width: 260px;
+    max-height: max-content;
+    background-color: #f3f7fd;
+    border: none;
+    border-radius: 4px;
+    box-shadow:12px 5px 10px 0 gray;
+    position: relative;
+    z-index: -1;
+} 
+.icon{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: #136ad5;
+}
+.card-text{
+    opacity: 70%;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: 150;
+}
+/* End Tow Section */
+/* Start Three Section */
+.bg-color{
+    background-color: #f8f9fa;
+}
+.three-title{
+    color: #136ad5;
+}
+.pargraph-three{
+    max-width: 380px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.color-blue{
+    color: #136ad5;
+}
+.img-position{
+    border: 1px solid #136ad5;
+}
+.width-img {
+    transform: translate(25px, -60px);
+}
+@media screen and (max-width:991px){
+    .width-img {
+        transform: translate(0);
+    }
+}
+/* End Three Section */
+/* Start Four Section */
+.max-width{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.card-four-section{
+    max-width:350px;
+
+}
+.card-border {
+    border: 1px solid black;
+}
+.circl-icon {
+    width: 80px;
+    height: 80px;
+    position:relative;
+    margin: 25px auto;
+    border: 1px solid #dde9f9;
+    border-radius: 50%;
+}
+.center-icon{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* End Four Section */
+/* Start Five Section */
+.width{
+    max-width: 350px;
+    max-height: 500px;
+}
+.border-style {
+    border: none;
+    border-radius: 0;
+}
+.color-yellow {
+    color: #ffc107;
+}
+/* End  Five Section */
+
+/* Start six Section */
+.six-section{
+    background-image: url('./../img/pexels-photo-5905709.jpeg');
+    background-size: cover;
+}
+/* End six Section */
+/* Start Seven Section */
+
+
+.box-shadow{
+    box-shadow: 210px -50px 0 #d0e1f7;
+}
+@media screen and (max-width:500px) {
+    .box-shadow{
+        box-shadow: none;
+    }
+}
+.width-video{
+    width: 100%;
+}
+/* End Seven Section */
+/* Start Eight Section */
+.vertical-img-card{
+    border-radius: 0;
+    box-shadow:12px 5px 10px 0 gray;
+}
+/* End Eight Section */
+/* Start nine Start */
+.border-radius {
+    max-width: 280px;
+    border: 1px solid rgb(225, 222, 222);
+    border-radius: 0;
+}
+/* End nine Section */
+/*Start Tesimonials Start*/
+.paragrph-slider {
+    max-width: 600px;
+}
+.photo-width {
+    width: 60px;
+}
+#carousel-indicators{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #136ad5;
+}
+/*End Tesimonials section*/
+/* Start why us section*/
+.img-whyus{
+    max-width: 100%;
+}
+.img-accord{
+    max-width: 120px;
+    max-height: 100px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #136ad5;
+    color: white;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button::after {
+    background-image: none;
+    content: "+";
+    font-size: 1.8rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    left: -8px;
+    font-weight: bolder;
+}
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    background-image: none;
+    position: absolute;
+    left: -4px;
+    top: 24px;
+    font-size: 25px;
+    color: white;
+   
+}
+.accordion-item:first-of-type {
+    border: none;}
+.accordion-item:not(:first-of-type){ 
+    border: none;}
+.accordion-item:first-of-type {
+    border: none;}
+/*End why us  section*/
+/* Start footer */
+.bg-footer{
+    background-color: #136ad5;
+}
+
+.circl-icon-footer {
+    width: 40px;
+    height: 40px;
+    position:relative;
+    margin: 25px auto;
+    border: 1px solid #dde9f9;
+    border-radius: 50%;
+}
+.img-footer{
+    width: 80px;
+    height: 80px;
+}
+
+/* End footer */
+
